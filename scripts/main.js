@@ -114,10 +114,6 @@ async function getInputValue(){
     trueValue(value);
     createText("Didn't you mean: social -a?")
   }
-  else if(value === "quote"){
-    trueValue(value);
-    createText("Didn't you mean: quote -m?")
-  }
 
   else if(value === "contact"){
     trueValue(value);
