@@ -35,7 +35,7 @@ a{
   color: rgb(238, 238, 238);
 }
 body{
-  background-image: url('../static/background.jpeg');
+  background-image: url('./static/background.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
