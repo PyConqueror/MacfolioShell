@@ -75,6 +75,7 @@ async function getInputValue(){
     
     createCode("projects", "Projects i have build ;)");
     createCode("whoami", "Who am i and what do i do.");
+    createCode("resume", "My latest resume.");
     createCode("social -a", "All my social networks.");
     createCode("contact -a", "View my contact details.");
     createCode("quote -m", "My Favourite quote.");
@@ -103,6 +104,10 @@ async function getInputValue(){
     trueValue(value);
     createText("Electronic Mail : wanaqim@gmail.com");
     createText("Telephonic Device Number : +6013-7793179");
+  }
+  else if(value === "resume"){
+    trueValue(value);
+    createText("<a href='https://pyconqueror.github.io/resume/' target='_blank'><i class='fa-file-pdf'></i> Click Me!</a>")
   }
   else if(value === "quote -m"){
     trueValue(value);
