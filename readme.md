@@ -12,6 +12,11 @@ Welcome to MacFolioShell, a unique portfolio website designed to mimic the look 
 
 To interact with MacFolioShell, simply click on the terminal window and start typing the supported commands. Press `Enter` to execute a command.
 
+## Screenshot
+
+![Screenshot](static/screenshot.jpeg)
+
+
 ### Supported Commands
 
 - `whoami`: Displays information about me and what I do.
