@@ -89,6 +89,7 @@ async function getInputValue(){
     createText("<a href='https://github.com/PyConqueror/Hospital-Management-System' target='_blank'><i class='fab fa-github white'></i> HMS - Hospital Management System</a>")
     createText("<a href='https://github.com/PyConqueror/2D-Pong' target='_blank'><i class='fab fa-github white'></i> 2D Pong - Retro style 2D-Pong Web Game</a>")
     createText("<a href='https://github.com/PyConqueror/MacfolioShell' target='_blank'><i class='fab fa-github white'></i> MacFolioShell - Mac Terminal themed portfolio website (this website)</a>")
+    createText("<a href='https://github.com/PyConqueror/Inventory-Management-System' target='_blank'><i class='fab fa-github white'></i> Inventory Management System</a>")
   }
   else if(value === "whoami"){
     trueValue(value);
